@@ -6,6 +6,7 @@
 #Install OpenVPN
 sudo apt-get install -y openvpn
 sudo /etc/init.d/postgresql start
+msfdb init
 sudo openvpn rjpark123.ovpn
 
 #Kill OpenVPN
