@@ -9,6 +9,9 @@ sudo /etc/init.d/postgresql start
 msfdb init
 sudo openvpn rjpark123.ovpn
 
+#To use different configuration files type in another .ovpn file from the repository
+#ex. sudo openvpn [xxxx].ovpn
+
 #Kill OpenVPN
 #sudo killall openvpn (type command if you want to completely kill OpenVpn)
 
